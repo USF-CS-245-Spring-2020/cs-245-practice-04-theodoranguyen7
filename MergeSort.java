@@ -28,7 +28,6 @@ public class MergeSort implements SortingAlgorithm {
             leftArray[i] = a[left + i];
         }
         //appends number to temp array
-
         for (int j = 0; j < (right - middle); ++j)
         {
             rightArray[j] = a[middle + 1 + j];
